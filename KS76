@@ -18,6 +18,14 @@ comp_val_3 = 12
 comp_val_4 = 12
 
 #?? idk something with enumerate
+index = 0
+for item in my_list:
+    if my_list[index] % 2 != 0:
+        inds.append(index)
+    index = index + 1        
+print(inds)
+...correct asnwer below, but why doesn't mine work?
+
 for index, value in enumerate(my_list):
     if value % 2 != 0:
         inds.append(index)
